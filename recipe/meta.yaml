@@ -1,13 +1,13 @@
 {% set name = "pickleDB" %}
-{% set version = "0.9.2" %}
+{% set version = "1.1.1" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ec6973e65d7d112849e78ce522840aa908efb2523470bb8ce5c7942310192240
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 8b49cca3c06c4e92bdfcda6c589067cdc1e0184612af42c95633d4ffc41438e6
 
 build:
   number: 0
